@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/chapter4/chapter4.iml" filepath="$PROJECT_DIR$/chapter4/chapter4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter4-thymeleaf/chapter4-thymeleaf.iml" filepath="$PROJECT_DIR$/chapter4-thymeleaf/chapter4-thymeleaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springcloud-dudu.iml" filepath="$PROJECT_DIR$/.idea/springcloud-dudu.iml" />
     </modules>
