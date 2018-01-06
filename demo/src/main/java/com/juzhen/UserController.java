@@ -16,7 +16,7 @@ public class UserController {
     private User userTest;
     @RequestMapping("/")
     public String hi() {
-        return user.getName()+","+user.getWant();
+        return user.getName()+",!"+user.getWant();
     }
     @RequestMapping("/hi")
     public String hii() {
