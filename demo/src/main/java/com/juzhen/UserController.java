@@ -9,17 +9,19 @@ import javax.annotation.Resource;
 
 @RestController
 public class UserController {
-//    @Autowired
+    //    @Autowired
     @Resource
     private User user;
     @Autowired
     private User userTest;
+
     @RequestMapping("/")
     public String hi() {
-        return user.getName()+",!"+user.getWant();
+        return user.getName() + ",!" + user.getWant();
     }
-    @RequestMapping("/hi")
+
+    @RequestMapping("/hii")
     public String hii() {
-        return userTest.getName()+","+userTest.getWant();
+        return userTest.getName() + "," + userTest.getWant();
     }
 }
