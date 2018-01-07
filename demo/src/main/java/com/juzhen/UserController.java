@@ -1,7 +1,7 @@
 package com.juzhen;
 
 import com.juzhen.domain.User;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.juzhen.domain.UserTest;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -12,8 +12,9 @@ public class UserController {
     //    @Autowired
     @Resource
     private User user;
-    @Autowired
-    private User userTest;
+
+    @Resource
+    private UserTest userTest;
 
     @RequestMapping("/")
     public String hi() {
@@ -22,6 +23,6 @@ public class UserController {
 
     @RequestMapping("/hii")
     public String hii() {
-        return userTest.getName() + "," + userTest.getWant();
+        return userTest.getName() + " ," + userTest.getWant();
     }
 }
